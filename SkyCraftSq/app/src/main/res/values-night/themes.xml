@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SkyCraftSq" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="MAIN_BG">
+        <item name="srcCompat">@drawable/background_dark</item>
+    </style>
+
+    <style name="COLLECTION_BG">
+        <item name="srcCompat">@drawable/collection_dark</item>
+    </style>
+
+    <style name="BAZAAR_BG">
+        <item name="srcCompat">@drawable/bazaar_dark</item>
+    </style>
+
+    <style name="BANK_BG">
+        <item name="srcCompat">@drawable/bank_dark</item>
+    </style>
+
+    <style name="SEARCH">
+        <item name="srcCompat">@drawable/search_dark</item>
+    </style>
+
+    <style name="BACK">
+        <item name="srcCompat">@drawable/back_dark</item>
+    </style>
+
+    <style name="TEXT">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LIST">
+        <item name="itemTextColor">@color/white</item>
+    </style>
+
+    <style name="SWITCH">
+        <item name="thumbColor">@color/white</item>
+        <item name="trackColor">@color/black</item>
+    </style>
+
+    <style name="BUTTON">
+        <item name="android:textColor">@color/white</item>
+        <item name="strokeColor">@color/white</item>
+    </style>
+</resources>

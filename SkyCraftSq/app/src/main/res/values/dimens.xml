@@ -1,0 +1,10 @@
+<resources>
+    <!-- Grid Layout dimensions -->
+    <dimen name="grid_layout_height">109dp</dimen>
+    <dimen name="grid_layout_margin_start">16dp</dimen>
+    <dimen name="grid_layout_margin_top">16dp</dimen>
+    <dimen name="grid_layout_margin_end">16dp</dimen>
+
+    <!-- Text View dimensions -->
+    <dimen name="text_view_padding">8dp</dimen>
+</resources>
