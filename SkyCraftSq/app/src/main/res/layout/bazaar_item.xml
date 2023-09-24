@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingLeft="16dp"
-                android:text="Buy Prise:" />
+                android:text="Buy Price:" />
 
             <TextView
                 android:id="@+id/bzSellP"
@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingLeft="16dp"
-                android:text="Sell Prise:" />
+                android:text="Sell Price:" />
         </LinearLayout>
 
         <LinearLayout

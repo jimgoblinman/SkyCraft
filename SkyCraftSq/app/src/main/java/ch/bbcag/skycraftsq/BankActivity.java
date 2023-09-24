@@ -42,7 +42,7 @@ public class BankActivity extends AppCompatActivity {
     ListView profileList;
     ImageView back;
 
-    private static final String BANKING_URL = "https://api.hypixel.net/skyblock/profiles?key=f53aed38-f632-4f38-828c-c160ea5aaf26&uuid=";
+    private static final String BANKING_URL = "https://api.hypixel.net/skyblock/profiles?key=b00bfc81-5f25-4da4-9e28-c01c5fc36dd0&uuid=";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -15,8 +15,8 @@ public class ProductItem {
 
     public ProductItem(String itemName, String buyPrice, String sellPrice, String buyVolume, String sellVolume) {
         this.itemName = formatString(itemName);
-        this.buyPrice = formatPrise(Double.parseDouble(buyPrice));
-        this.sellPrice = formatPrise(Double.parseDouble(sellPrice));
+        this.buyPrice = formatPrice(Double.parseDouble(buyPrice));
+        this.sellPrice = formatPrice(Double.parseDouble(sellPrice));
         this.buyVolume = buyVolume;
         this.sellVolume = sellVolume;
     }
@@ -35,7 +35,7 @@ public class ProductItem {
         return output.toString().trim();
     }
 
-    public String formatPrise(Double value) {
+    public String formatPrice(Double value) {
         DecimalFormat decimalFormat = new DecimalFormat("0.00");
         return decimalFormat.format(value);
     }
@@ -75,4 +75,3 @@ public class ProductItem {
         this.sellVolume = sellVolume;
     }
 }
-

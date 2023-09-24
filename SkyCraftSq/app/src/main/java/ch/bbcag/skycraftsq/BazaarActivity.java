@@ -57,7 +57,8 @@ public class BazaarActivity extends AppCompatActivity {
     TextView bzOr;
     ImageView bzBack;
 
-    private static final String BAZAAR_URL = "https://api.hypixel.net/skyblock/bazaar?key=f53aed38-f632-4f38-828c-c160ea5aaf26";
+    //private static final String BAZAAR_URL = "https://api.hypixel.net/skyblock/bazaar?key=f53aed38-f632-4f38-828c-c160ea5aaf26";
+    private static final String BAZAAR_URL = "https://api.hypixel.net/skyblock/bazaar";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -211,8 +212,8 @@ public class BazaarActivity extends AppCompatActivity {
                 TextView bzSellV = convertView.findViewById(R.id.bzSellV);
 
                 bzItem.setText(productItem.getItemName());
-                bzBuyP.setText("Buy Prise: " + productItem.getBuyPrice());
-                bzSellP.setText("Sell Prise: " + productItem.getSellPrice());
+                bzBuyP.setText("Buy Price: " + productItem.getBuyPrice());
+                bzSellP.setText("Sell Price: " + productItem.getSellPrice());
                 bzBuyV.setText("Buy Volume: " + productItem.getBuyVolume());
                 bzSellV.setText("Sell Volume: " + productItem.getSellVolume());
 

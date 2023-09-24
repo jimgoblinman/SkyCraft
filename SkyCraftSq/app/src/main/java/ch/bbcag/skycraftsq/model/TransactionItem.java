@@ -25,12 +25,12 @@ public class TransactionItem {
 
     public TransactionItem(String action, String amount, long timestamp, String initiatorName) {
         this.action = action;
-        this.amount = formatPrise(Double.parseDouble(amount));
+        this.amount = formatPrice(Double.parseDouble(amount));
         this.timestamp = timestamp;
         this.initiatorName = initiatorName;
     }
 
-    public String formatPrise(Double value) {
+    public String formatPrice(Double value) {
         DecimalFormat decimalFormat = new DecimalFormat("0.00");
         String result = decimalFormat.format(value);;
 
